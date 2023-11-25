@@ -1,0 +1,878 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/****** CABECERA ****/
+header{
+    width: 100%;
+    /*position: fixed;*/
+    top: 0;
+    left: 0;
+    background: #fff;
+}
+.header{
+    max-width: 100%;
+    margin: auto;  
+}
+#logo_uam{
+    position: absolute;
+    width: 350px;
+    height: 103px;
+    top: 18px;
+    left: 26px;   
+}
+#logo_oga{
+    position: absolute; 
+    width: 343px;
+    height: 114px;
+    top: 9px;
+    left: 548px;
+}
+.Directorio{
+    position: absolute;
+    width: 133px;
+height: 24px;
+top: 47px;
+left: 1251px;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+
+color: #9AC31C;
+justify-self: right;
+}
+
+.icono_IG img{
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    top: 84px;
+    left: 1326px;
+}
+.icono_FB{
+    position: absolute;
+    width: 27px;
+height: 26px;
+top: 84px;
+left: 1357px;
+}
+.lineaCabecera{
+    /* Vector 1 */
+position: absolute;
+width: 1354.5px;
+top: 131px;
+left: 35px;
+border: 2px solid #9AC31C;
+}
+/***** INDEX Ciclo estacionamientos***/
+.inicio img{
+    z-index: 2;
+    position: absolute;/*relative;*/
+    width: 611px;
+height: 612px;
+top: 206px;
+left: 259px;
+}
+.separaccion img{
+    z-index: 2;
+    position: absolute;
+    /*position: relative;*/
+    width: 628px;
+height: 628px;
+top: 195px;
+left: 235px;
+}
+aside {
+    z-index: 1;
+	/*position: relative;*/
+    position: absolute;
+    width: 410px;
+height: 571px;
+top: 224px;
+left: 841px;
+border: 2px solid #9AC31C;
+}
+.titulosepara img{
+    /*position: absolute;*/
+    /*position: relative;*/
+    width: 353px;
+height: 116px;
+top: 250px;
+left: 884px;
+}
+aside .titulo {
+    /*position: absolute;*/
+    width: 351px;
+    height: 78px;
+    padding-top: 25px;
+    padding-left: 43px;
+    /*top: 256px;*/
+    left: 885px;
+    font-family: Montserrat;
+font-size: 32px;
+font-weight: 700;
+line-height: 39px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(154, 195, 28, 1);
+}
+.separaccion aside{
+    width: 410px;
+    height: 571px;
+    left: 791px;
+}
+.separaccion>aside h2{
+    font-family: Montserrat;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+padding-left: 50px;
+}
+
+aside .parrafo{
+    /*position: absolute;*/
+    font-family: Montserrat;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+width: 329px;
+height: 143px;
+/*top: 547px;
+left: 888px;*/
+padding-top: 210px;
+margin-left: 43px;
+}
+.parrafosepara{
+    font-family: Montserrat;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+width: 329px;
+height: 143px;
+padding-top: 322px;
+margin-left: 43px;
+}
+.link{
+    text-decoration: none;
+    position: absolute;
+    /*display: grid;*/
+    font-family: Montserrat;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color:  rgba(154, 195, 28, 1);
+
+width: 105px;
+height: 28px;
+top: 515px;
+left: 277px;
+/*padding-top: 220px;
+margin-left: 274px;*/
+
+}
+aside .linksepara{
+    text-decoration: none;
+    position: absolute;
+    font-family: Montserrat;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color:  rgba(154, 195, 28, 1);
+
+width: 105px;
+height: 28px;
+top: 515px;
+left: 284px;
+}
+.linkrecicla{
+    position: absolute;
+    font-family: Montserrat;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color:  rgba(154, 195, 28, 1);
+width: 105px;
+height: 28px;
+top: 515px;
+left: 277px;
+}
+.menu img{
+    position: absolute;
+    width: 100px;
+height: 100px;
+top: 447px;
+left: 69px;
+}
+.avanza img{
+    position: absolute;
+width: 50px;
+height: 52px;
+top: 471px;
+left: 1342px;
+border: 5px;
+}
+.regresa img{
+    position: absolute;
+    width: 52px;
+height: 52px;
+top: 471px;
+left: 1303px;
+border: 5px;
+}
+/**** PIE ****/
+#lineapie{
+    position: absolute;
+    width: 1354.5px;
+    top: 931px;
+    left: 35px;    
+
+border: 2px solid #9AC31C;
+}
+.Plan{
+    position: absolute;
+   width: 187px;
+   height: 20px;
+   top: 964px;
+   left: 119px;
+   text-decoration: none;
+
+   font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+color: #AAABA7;
+}
+.Calendario{
+    position: absolute;
+    text-decoration: none;
+    width: 218px;
+    height: 20px;
+    top: 964px;
+    left: 420px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+color: #AAABA7;
+}
+.Publi{
+    position: absolute;
+    text-decoration: none;
+width: 184px;
+height: 20px;
+top: 964px;
+left: 783px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px; 
+color: #AAABA7;
+}
+.Cambio{
+    position: absolute;
+    text-decoration: none;
+    width: 169px;
+    height: 20px;
+    top: 964px;
+    left: 1131px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px; 
+    color: #AAABA7;
+}
+/* ***  RECICLATRON *****  */
+.reciclatron img{
+    z-index: 2;
+    position: absolute;
+    width: 612px;
+height: 612px;
+top: 206px;
+left: 263px;
+}
+.titulorecicla img{
+position: absolute;
+/*width: 240px;
+height: 62px;*/
+left: 892px;
+top: 257px;
+}
+.parraforrecicla{
+    font-family: Montserrat;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+width: 309px;
+height: 143px;
+padding-top: 322px;
+margin-left: 65px;
+}
+
+/***** MENU   *******/
+.volverinicio img{
+    position: absolute;
+    width: 100px;
+height: 100px;
+top: 447px;
+left: 35px;
+border: 1px;
+}
+.gestion_integral{
+    margin: auto;
+}
+/*nav > ul{
+    display: flex; 
+}*/
+nav > ul > li{
+    list-style: none;
+    position: relative;
+}
+nav > ul > li label{ /*.menu1{*/
+    display: flex;
+position: absolute;
+/*padding: 10px 15px 10px 67px;*/
+gap: 15px;
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+text-align: center;
+    color: #484845;
+    transition: all 300ms ease;
+}
+.triangulo{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-top: solid #9AC31C 23px;
+    border-left: solid transparent 23px;
+    border-right: solid transparent 23px;
+    border-bottom: solid transparent 0px; 
+    border-radius: 45px;
+    /*width: 35px;
+    height: 23px;*/
+}
+#triangulo1{
+    top: 175px;
+    left: 157px;
+}
+#triangulo2{
+    top: 541px;
+    left: 157px;
+}
+#triangulo3{    
+top: 185px;
+left: 815px;
+}
+#triangulo4{
+    top: 427px;
+    left: 815px;
+}
+#triangulo5{
+    top: 667px;
+    left: 815px;
+}
+#menu1{
+    top: 175px;
+left: 209px;
+}
+#menu2{
+    top: 541px;
+left: 209px;
+}
+#menu3{
+    top: 185px;
+    left: 867px;
+}
+#menu4{
+    top: 427px;
+    left: 867px;
+}
+#menu5{
+    top: 667px;
+    left: 867px;
+}
+nav ul li input{
+    display: none;
+}
+
+nav ul li ul{  /*** SUBMENUS ***/
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    
+    list-style: none;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 10;
+    transition: all 300ms ease;
+}
+nav ul li ul li a{
+    display: block;
+    font-family: Montserrat;
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+padding: 10px 15px 10px 15px;
+
+    color: #6B6B69;
+    transition: all 300ms ease;
+}
+#submenu1{   
+    top: 212px;
+    left: 237px;    
+}
+#submenu2{
+    top: 572px;
+    left: 237px;
+}
+#submenu3{
+    top: 222px;
+    left: 885px;
+}
+#submenu4{
+    top: 464px;
+    left: 885px;
+}
+#submenu5{
+    top: 704px;
+    left: 885px;
+}
+.submenu:hover{
+    visibility: visible;
+    opacity: 1;
+}
+
+nav > ul > li> label:hover{
+    cursor: pointer;
+}
+.triangulo:hover{
+    transform: scale(1.2);
+}
+nav ul li ul li a:hover{
+    color: #9AC31C;
+}
+.btn-acordeon:hover ~ .menu_titulo{
+    color: #9AC31C;
+}
+.btn-acordeon:hover ~ .submenu{
+    visibility: visible;
+    opacity: 1;
+}
+.btn-acordeon:checked ~ .menu_titulo {
+    color: #9AC31C;
+}
+.btn-acordeon:checked ~ .submenu{
+    visibility: visible;
+    opacity: 1;
+}
+.btn-acordeon:checked ~ .triangulo{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    
+    border-top: solid transparent 23px;
+    border-left: solid #9AC31C 23px;
+    border-right: solid transparent 0px;
+    border-bottom: solid transparent 23px;
+}
+/****  MENU > Seperacción ****/
+.menusepara img{
+    position: absolute;
+    z-index: 5;
+    width: 696px;
+height: 464px;
+top: 232px;
+left: 638px;
+}
+.menusepara > aside{
+    z-index: 1;
+	/*position: relative;*/
+    position: absolute;
+    width: 319px;
+height: 201px;
+top: 391px;
+left: 244px;
+border: transparent;/*2px solid #9AC31C;*/
+}
+.menuseparatitulo img{
+    position: relative;
+    width: 322px;
+height: 103px;
+top: 190px;
+left: 228px;
+}
+.menuseparaparrafo{
+    font-family: Montserrat;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+top: 391px;
+left: 244px;
+}
+.transicion input{
+    position: absolute;
+}
+.circulo{
+    position: absolute;
+    width: 16px;
+height: 16px;
+border-radius: 50%;
+}
+#circulo1{
+    top: 723px;
+left: 967px;
+}
+#circulo2{
+    top: 723px;
+    left: 990px;  
+}
+#circulo3{
+    top: 723px;
+    left: 1013px;
+}
+.presente a{
+    background-color: #9AC31C;
+    cursor: default;
+}
+.transicion a{
+    background-color: #AAABA7;
+}
+.menuseparalink{
+    position: absolute;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+top: 375px;
+left: 245;
+color: #9AC31C;
+
+}
+.menuseparalink2{
+    position: absolute;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+top: 409px;
+left: 245;
+color: #9AC31C;
+}
+/*.calendario{/**** CALENDARIO AMBIENTAL****
+    position: absolute;
+}*/
+.calendario img{
+    position: absolute;
+    z-index: 5;
+    width: 544px;
+height: 544px;
+top: 281px;
+left: 402px;
+}
+.calendario aside{
+    width: 351px;
+height: 489px;
+top: 303px;
+left: 926px;
+text-align: justify;
+border: 2px solid #9AC31C
+}
+.calendario aside .parrafo{
+    position: absolute;
+    text-align: left;
+    top: 59px;
+    width: 282px;
+height: 195px;
+}
+.cale{
+    position: absolute;
+    font-family: Montserrat;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #484845;
+top: 186px;
+left: 163px;
+}
+.cal_dias{
+    position: absolute;
+    font-family: Montserrat;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #484845;
+top: 286px;
+left: 203px;
+}
+ul{
+    list-style: none;
+}
+.meses li{
+    /*position: relative;*/
+    float: left;
+    top: 166px;
+left: 451px;
+}
+.meses li a{
+    display: block;
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+padding-left: 11px;
+color:  #AAABA7;
+}
+.meses li a:hover{
+    color: #9AC31C;
+}
+.dias{
+    position: absolute;
+}
+.dias a{
+    /*position: relative;*/
+    font-family: Montserrat;
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #6B6B69;
+/*top: 20px;*/
+display: block;   
+/*padding: 10px 15px 10px 15px;*/
+/*padding-top: 10px;*/
+gap: 10px;
+margin-top: 15px;
+margin-left: 10px;
+width: 200px;
+}
+.dias a:hover{
+    color: #9AC31C;
+    transition: all 300ms ease;
+}
+#mesactual{
+    color: #9AC31C;
+    cursor: default;
+}
+#diaactual{
+    color: #9AC31C;
+    cursor: default;
+}
+/**** DIRECTORIO ***/
+.diroga img{
+    position: absolute;
+    top: 254px;
+left: 235px;
+}
+.dirsepara img{
+    position: absolute;
+    width: 238.47132873535156px;
+height: 78px;
+top: 472px;
+left: 250px;
+}
+.dirplanta img{
+    position: absolute;
+    width: 267px;
+height: 81px;
+top: 700px;
+left: 235px;
+}
+.dirtexto{
+    position: absolute;
+    font-family: Montserrat;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #6B6B69;
+}
+.imgpersona{
+    position: absolute;
+    width: 27px;
+height: 25px;
+}
+.imgtel{
+    position: absolute;
+    width: 22px;
+height: 20px;
+}
+.imgmail{
+    position: absolute;
+    width: 25px;
+height: 19px;
+border: 2px;
+}
+.imgubica{
+    position: absolute;
+    width: 22px;
+height: 28px;
+left: 1094px;
+}
+#dirluisimg{    
+top: 254px;
+left: 595px;
+}
+#diritzeimg{
+    top: 468px;
+    left: 597px
+}
+#diradanimg{
+    top: 699px;
+    left: 599px
+}
+#dirluis {
+top: 262px;
+left: 639px;
+}
+#diritze {
+    top: 476px;
+    left: 641px;
+}
+#diradan {
+    top: 707px;
+    left: 643px;
+}
+#luistelimg{
+top: 297px;
+left: 597px;
+}
+#itzetelimg{
+    top: 511px;
+    left: 599px;
+}
+#adantelimg{
+    top: 742px;
+    left: 601px;
+}
+#dirluistel{
+top: 302px;
+left: 639px;
+}
+#diritzetel{
+    top: 516px;
+    left: 641px;
+}
+#diradantel{
+    top: 747px;
+    left: 643px;
+}
+#luismailimg{
+top: 338px;
+left: 595px;
+}
+#itzemailimg{
+    top: 549px;
+    left: 595px;
+}
+#adanmailimg{
+    top: 780px;
+    left: 595px;
+}
+#dirluismail{
+    top: 334px;
+    left: 639px;
+}
+#diritzemail{
+    top: 547px;
+    left: 641px;
+}
+#diradanmail{
+    top: 780px;
+    left: 643px;
+}
+#luisubicaimg{
+    top: 266px;
+}
+#itzeubicaimg{
+    top: 472px;
+}
+#adanubicaimg{
+    top: 717px;
+}
+#dirluisubica{
+    top: 270px;
+    left: 1129px;
+}
+#diritzeubica{
+    top: 474px;
+    left: 1129px;
+}
+#diradanubica{
+    top: 717px;
+    left: 1129px;
+}
+/*****  PLANTA PILOTO TAR ****/
+.pptar img{
+    position: absolute;
+    z-index: 5;
+    width: 612px;
+height: 612px;
+top: 206px;
+left: 263px;
+}
+.titulopptar img{
+    position: absolute;
+    width: 338px;
+height: 100px;
+top: 246px;
+left: 894px;
+}
+.linkpptar{
+    position: absolute;
+    font-family: Montserrat;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color:  rgba(154, 195, 28, 1);
+width: 105px;
+height: 28px;
+top: 515px;
+left: 277px;
+}
